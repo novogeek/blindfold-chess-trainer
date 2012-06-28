@@ -1,0 +1,146 @@
+﻿body {
+	font-family:Trebuchet MS;
+	font-size:14px;
+}
+
+.white
+{
+	width:50px;
+	height:50px;
+	background-color:White;	
+	border:solid 1px #000;
+}
+
+.black
+{
+	width:50px;
+	height:50px;
+	background-color:black;	
+	border:solid 1px #000;
+}
+#divChessBoard span
+{
+	/*display:inline-block;*/
+	float:left;
+}
+#divChessBoard div {clear:both;}
+.charCodes
+{
+	width:50px;
+	height:50px;
+	display:inline;
+}
+.highlight
+{
+	background-image:url('../images/star.png');
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+fieldset
+{
+	padding:10px;	
+	width:400px;
+	margin:10px;
+	display:block;
+	border:1px solid #DDDDDD;
+}
+#divHeaderImage
+{
+	height:90px;	
+}
+#divChessBoard
+{
+	margin:20px;
+	float:left;
+}
+#divChessBoard span:hover
+{
+	cursor:pointer;
+}
+#divHeaderButtons
+{
+	padding:5px 5px 5px 10px;
+}
+
+#divTabs
+{
+	float:left;
+	width:500px;
+	padding:5px;	
+}
+	
+#spColor, #spBishops,#lblColor, #lblBishops
+{
+	cursor:pointer;
+	padding:5px;	
+}
+#spButtonsWhiteBlack, #spButtonsYesNo
+{
+	display:none;	
+}
+#spButtons
+{
+	display:inline-block;
+	width:200px;	
+}
+
+#divOptions span
+{
+	margin:5px;	
+}
+
+.red
+{
+	color:Red;	
+}
+.green
+{
+	color:Green;	
+}
+
+#divCenterContent
+{
+	margin:0px auto;
+}
+.divCenter
+{
+	text-align:center;
+	clear:both;
+	margin:5px;
+}
+.spQuestion, #spBoardMessage
+{
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	font-size:18px;	
+}
+#divQuestion,#divAnswer,#divScore
+{
+	margin:5px;	
+	min-height:20px;
+
+}
+
+
+#spTimer
+{
+	display:inline-block;
+	margin:0 0 0 0;	
+}
+
+.width10
+{
+	display:inline-block;
+	width:10px;
+}
+
+button {
+	cursor:pointer;
+	line-height:1.4em;
+	margin:0.5em 0.4em 0.5em 0;
+	overflow:visible;
+	padding:0.2em 0.6em 0.3em;
+	width:auto;
+	outline-style:none;
+}
