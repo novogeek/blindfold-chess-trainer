@@ -1,0 +1,12 @@
+This is a Chess training tool which assists in learning the art of playing chess blindfolded!
+(To play chess blindfolded, you need to know Chess notation and should be able to quickly point out the color of the square given a square name.
+e.g., the first square on the left is a1 and its color is black. Moving rightside the squares are b1, c1...h1
+Moving to the top from a1, you have a2, a3...a8).
+
+I developed it about 3 years back for helping kids learn blind fold chess at CyberChess Academy. 
+I thought I lost this code due to system crash sometime back but glad that I found it all of a sudden.
+Now it's permanent at Github. YaY! 
+
+By the way, it was developed very quickly with my limited knowledge of JS/jQuery at that time, but it works great.
+Now I'm too busy to improve the code w.r.t performance, proper JS/CSS guidelines etc.
+Please contribute if you can so that kids will get huge benefit! Seriously!!
